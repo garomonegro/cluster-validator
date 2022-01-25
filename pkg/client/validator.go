@@ -124,7 +124,7 @@ func (v *Validator) Validate() ValidationError {
 
 	return ValidationError{
 		Status:    ValidationSucceeded,
-		Message:   errors.Errorf("test"),
+		Message:   nil,
 		Summaries: summaries,
 	}
 }
